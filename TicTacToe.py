@@ -133,7 +133,7 @@ def game_logic(game_list, symbol):
               
             
         else:
-            print('That position is already occupied.')
+            print('That position is occupied.')
             input()
             continue
     play_again()
