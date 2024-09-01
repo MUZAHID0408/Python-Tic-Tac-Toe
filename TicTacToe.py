@@ -145,7 +145,9 @@ def play_again():
     if val == 'y' or val == 'Y':
         game_play()
     elif val == 'n' or val == 'N':
-        sys.exit()  
+        sys.exit() 
+    else:
+        sys.exit() 
     
 
 def game_play():
